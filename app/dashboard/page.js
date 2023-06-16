@@ -1,16 +1,22 @@
 "use client"
 import styles from './Dashboard.module.css';
-import React, { useState, useEffect } from 'react';
 
 
 const Dashboard = () => {
+
+
+
   
   return (
     <>
+
       <nav className={styles.nav}>
+
+   
         <ol className={styles.navList}>
           <li><a href="/Dashboard_body">Home</a></li>
           <li><a href="/addNotification">Notification</a></li>
+
           <li className={styles.training}>
             <a href="#">Instructors</a>
             <ol className={styles.subList}>
@@ -21,8 +27,8 @@ const Dashboard = () => {
           <li className={styles.training}>
             <a href="#">Subjects</a>
             <ol className={styles.subList}>
-              <li><a href="/addsubject">Add Subject</a></li>
-              <li><a href="/view_subjects">View Sbujects</a></li>
+              <li><a href="/addsubject">Add Subjects</a></li>
+              <li><a href="/view_subjects">View Subjects</a></li>
             </ol>
           </li>
           <li className={styles.training}>
